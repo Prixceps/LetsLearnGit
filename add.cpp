@@ -2,17 +2,18 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"enter size of array";
+    cout<<"enter size of array : ";
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
-        cout<<"enter your number at"<<i+1<<"th position";
+        cout<<"enter your number at "<<i+1<<" position :";
         cin>>arr[i];
     }
-    cout<<"reversed array is";
+    cout<<"reversed array is  {";
     for(int i=n-1;i>=0;i--){
-        cout<<arr[i];
+        cout<<arr[i]<<" ";
     }
+    cout<<"}";
     return 0;
     
 }
