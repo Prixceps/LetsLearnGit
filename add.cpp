@@ -1,19 +1,19 @@
 #include<iostream>
-using namespace std;
+
 int main(){
     int n;
-    cout<<"enter size of array : ";
-    cin>>n;
+    std ::cout<<"enter size of array : ";
+    std::cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
-        cout<<"enter your number at "<<i+1<<" position :";
-        cin>>arr[i];
+       std:: cout<<"enter your number at "<<i+1<<" position :";
+       std:: cin>>arr[i];
     }
-    cout<<"reversed array is  {";
+    std::cout<<"reversed array is  {";
     for(int i=n-1;i>=0;i--){
-        cout<<arr[i]<<" ";
+       std:: cout<<arr[i]<<" ";
     }
-    cout<<"}";
+    std::cout<<"}";
     return 0;
     
 }
